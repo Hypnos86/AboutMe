@@ -34,17 +34,55 @@
 </head>
 
 <body>
-    <header class="text-center text-uppercase">curriculum vitae</header>
-    <section>
-        <div></div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light text-cente">
+        <a class="navbar-brand" href="#">CV</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <ul class="navbar-nav justify-content-center ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#contanct">Kontakt</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#aboutme">O mnie</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#education">Wykrztałcenie</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="#experience">Doświadczenie</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="#skills">Umiejętności</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <section id="contanct" class="contanct">
+        <div class="row">
+            <div class="col">a</div>
+            <div class="col">b</div>
+        </div>
+
     </section>
-    
-    <section></section>
-    <section></section>
+
+    <section id="aboutme" class="container">a</section>
+    <section id="education"></section>
+    <section id="experience"></section>
+    <section id="skills"></section>
 
 
     <footer></footer>
-    <script></script>
+    <script>
+        const nav = document.querySelector('.navbar')
+        document.addEventListener('click', () => {
+            if (nav.classList.contains('show')) {
+                nav.classList.remove('show')
+            }
+        })
+    </script>
 </body>
 
 </html>
