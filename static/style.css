@@ -1,15 +1,33 @@
-html{
+html {
     scroll-behavior: smooth;
     font-size: 65.5%;
 }
 
-body{
-   font-family: Arial, Helvetica, sans-serif;
-   font-size: 1.6rem;
-   background-color: #000066
-   ;
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.6rem;
+    background-color: cornflowerblue;
 }
 
-[id]{
-    scroll-margin-top:50px;
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.left-side {
+    height: 100vh;
+    background-color: rgb(20, 37, 54);
+    color: aliceblue;
+    padding-top: 50px;
+
+}
+
+.right-side {
+    background-color: aliceblue;
+}
+
+[id] {
+    scroll-margin-top: 50px;
 }
