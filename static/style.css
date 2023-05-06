@@ -31,3 +31,27 @@ body {
 [id] {
     scroll-margin-top: 50px;
 }
+
+
+.navbar-nav ul{
+    display: table;
+}
+
+.navbar-nav li{
+    margin: 0%  1%;
+}
+
+.nav-item a{
+    display: block;
+    width: 180px;
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 30% 12%;
+}
+
+.nav-item a:hover{
+
+    background-color: rgb(20, 37, 54);
+    color: white !important;
+    border-radius: 30% 12%;
+}
