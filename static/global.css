@@ -11,9 +11,7 @@ body {
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
   background-color: whitesmoke;
-  height: 90vh;
-  /* overflow: hidden; */
-  padding-bottom: 50px;
+  height: 100vh;
 }
 
 a {
@@ -113,7 +111,7 @@ nav div ul li {
   border-radius: 15px;
 }
 
-nav div ul{
+nav div ul {
   padding: 0;
 }
 
@@ -153,11 +151,15 @@ section ul {
 
 .hero-text {
   position: absolute;
-  top: 20%;
-  right: 15%;
+  top: 30%;
+  right: 10%;
   transform: translate(-50%, -50%);
   text-align: center;
   color: rgba(245, 245, 245, 0.747);
+}
+
+.hero-text h1 {
+  font-size: 3rem;
 }
 
 .hero-text p {
@@ -178,7 +180,7 @@ section ul {
   padding: 15px 20px;
   background-color: rgba(245, 245, 245, 0.623);
   font-size: 2rem;
-  transition: transform .3s;
+  transition: transform 0.3s;
 }
 
 .hero-text button:hover {
@@ -186,6 +188,35 @@ section ul {
   background-color: rgba(11, 97, 78, 0.89);
   transform: scale(1.1);
 }
+
+@media only screen and (min-width: 200px) and (max-width: 900px) {
+  .hero-text {
+    transform: translate(0%, 0%);
+    top: 5%;
+    right: 0%;
+    left: 0%;
+  }
+
+  .hero-text button {
+    margin-top: 280px;
+  }
+}
+
+@media only screen and (min-width: 200px) and (min-width: 901px) {
+  .hero-text {
+    transform: translate(-50%, -50%);
+    top: 50%;
+    right: 0;
+    left: 80%;
+    width: max-content;
+  }
+
+  .hero-text button {
+    margin-top: 150px;
+  }
+}
+
+
 
 #aboutme {
   padding: 10px;
