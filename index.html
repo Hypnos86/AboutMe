@@ -4,14 +4,19 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="static/style.css" />
-    <script type="text/javascript" src="static/scripts.js"></script>
-
-    <!-- style css -->
+    <link rel="stylesheet" href="static/global.css" />
+    <script defer type="text/javascript" src="static/scripts.js"></script>
     <title>CV - Kamil Kubiak</title>
   </head>
   <body>
-    <div class="container">
+    <div id="welcome" class="hero-image">
+      <div class="hero-text">
+        <h1>Kamil Kubiak</h1>
+        <p>Frontend developer</p>
+        <button id="enterButton">Poznaj mnie</button>
+      </div>
+    </div>
+    <main id="mainSide" class="container hidden">
       <header>
         <nav>
           <a class="title-side" href="#">curriculum vitae</a>
@@ -39,7 +44,7 @@
       <main>
         <section id="author" class="author">
           <div class="image">
-            <img src="assets/author.jpg" alt="Autor" />
+            <img src="./assets/photo/author.jpg" alt="Autor" />
           </div>
           <section class="info">
             <h2>Kamil Kubiak</h2>
@@ -129,6 +134,6 @@
         </section>
       </main>
       <footer></footer>
-    </div>
+    </main>
   </body>
 </html>
