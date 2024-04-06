@@ -29,7 +29,7 @@ a {
   text-align: center;
 }
 .hidden {
-  display: none;
+  display: none !important;
 }
 
 .title-side {
@@ -41,9 +41,10 @@ a {
   width: 90%;
   margin: 0 auto;
   display: flex;
+  /* flex-wrap: wrap; */
 }
-/* 
-main {
+
+/* main {
   display: flex;
   align-content: stretch;
 } */
@@ -131,7 +132,7 @@ section ul {
 .main-content {
   border-radius: 0px 10px 10px 0px ;
   color: whitesmoke;
-  width: 100%;
+  width: 80%;
   background-image: linear-gradient(
     160deg,
     rgb(73, 95, 117),
@@ -203,6 +204,20 @@ section ul {
 
   .hero-text button {
     margin-top: 280px;
+  }
+
+  .container{
+    flex-wrap: wrap;
+  }
+}
+
+@media only screen and (max-width: 769px) {
+  .aside-section{
+    width: 100%;
+  }
+
+  .main-content{
+    width: 100%;
   }
 }
 
