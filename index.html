@@ -1,139 +1,138 @@
 <!DOCTYPE html>
 <html lang="pl">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="static/global.css" />
-    <script defer type="text/javascript" src="static/scripts.js"></script>
-    <title>CV - Kamil Kubiak</title>
-  </head>
-  <body>
-    <div id="welcome" class="hero-image">
-      <div class="hero-text">
-        <h1>Kamil Kubiak</h1>
-        <p>Frontend developer</p>
-        <button id="enterButton">Poznaj mnie</button>
-      </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="static/global.css" />
+  <script defer type="text/javascript" src="static/scripts.js"></script>
+  <title>CV - Kamil Kubiak</title>
+</head>
+
+<body>
+  <div id="welcome" class="hero-image">
+    <div class="hero-text">
+      <h1>Kamil Kubiak</h1>
+      <p>Frontend developer</p>
+      <button id="enterButton">Poznajmy się</button>
     </div>
-    <main id="mainSide" class="container hidden">
-      <header>
-        <nav>
-          <a class="title-side" href="#">curriculum vitae</a>
-          <div id="navbarNavAltMarkup">
-            <ul>
-              <li class="nav-item">
-                <a id="contactId" href="#contanct">Kontakt</a>
-              </li>
-              <li class="nav-item">
-                <a href="#aboutme">O mnie</a>
-              </li>
-              <li class="nav-item">
-                <a href="#experience">Doświadczenie</a>
-              </li>
-              <li class="nav-item">
-                <a href="#education">Wykształcenie</a>
-              </li>
-              <li class="nav-item">
-                <a href="#skills">Umiejętności</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-      </header>
-      <main>
-        <section id="author" class="author">
-          <div class="image">
-            <img src="./assets/photo/author.jpg" alt="Autor" />
-          </div>
-          <section class="info">
-            <h2>Kamil Kubiak</h2>
-            <div class="contact">
-              <address>Adres email: <a>kubiak.kamil23@gmail.com</a></address>
-            </div>
-            <div class="media">
-              <a href="https://github.com/Hypnos86" target="_blank">
-                <img
-                  class="svg"
-                  src="assets/iconmonstr-github-5.svg"
-                  alt="github"
-                />
-              </a>
-              <a
-                href="https://www.linkedin.com/in/kubiak-kamil23/"
-                target="_blank"
-              >
-                <img
-                  class="svg"
-                  src="assets/iconmonstr-linkedin-5.svg"
-                  alt="linkedin"
-                />
-              </a>
-            </div>
-            <section>
-              <h4 class="text-grey">Frontend developer - Junior</h4>
-              <ul>
-                <li class="item-list">HTML / CSS</li>
-                <li class="item-list">JavaScript</li>
-                <li class="item-list">TypeScript</li>
-                <li class="item-list">Angular</li>
-              </ul>
-            </section>
-            <section>
-              <h4 class="text-grey">Backend developer - Junior</h4>
-              <ul>
-                <li class="item-list">C#</li>
-                <li class="item-list">.Net / Winforms</li>
-                <li class="item-list">Python</li>
-                <li class="item-list">Django / Flask</li>
-                <li class="item-list"></li>
-                <li class="item-list"></li>
-              </ul>
-            </section>
-            <section>
-              <h4 class="text-grey">Manual tester - Junior</h4>
-            </section>
-          </section>
+  </div>
+  <!-- <main id="mainSide" class="container hidden"> -->
+  <main id="mainSide" class="container">
+    <!-- <header>
+      <nav>
+        <a class="title-side" href="#">curriculum vitae</a>
+        <div id="navbarNavAltMarkup">
+          <ul>
+            <li class="nav-item">
+              <a id="contactId" href="#contanct">Kontakt</a>
+            </li>
+            <li class="nav-item">
+              <a href="#aboutme">O mnie</a>
+            </li>
+            <li class="nav-item">
+              <a href="#experience">Doświadczenie</a>
+            </li>
+            <li class="nav-item">
+              <a href="#education">Wykształcenie</a>
+            </li>
+            <li class="nav-item">
+              <a href="#skills">Umiejętności</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header> -->
+    <aside id="author" class="aside-section">
+      <div class="image">
+        <img src="./assets/photo/author.jpg" alt="Autor" />
+      </div>
+      <section class="info">
+        <h2>Kamil Kubiak</h2>
+        <div class="contact">
+          <address>Adres email: <a>kubiak.kamil23@gmail.com</a></address>
+        </div>
+        <div class="media">
+          <a href="https://github.com/Hypnos86" target="_blank">
+            <img class="svg" src="./assets/iconmonstr-github-5.svg" alt="github" />
+          </a>
+          <a href="https://www.linkedin.com/in/kubiak-kamil23/" target="_blank">
+            <img class="svg" src="./assets/iconmonstr-linkedin-5.svg" alt="linkedin" />
+          </a>
+          <a id="downloadCv" href="./assets/CV-junior_frontend-Kamil_K.pdf" target="_blank">
+            <img class="svg" src="./assets/file-earmark-person.svg" alt="CV" />
+          </a>
+        </div>
+        <section>
+          <h4 class="text-grey">Junior Frontend Developer</h4>
+          <ul>
+            <li class="item-list">HTML / CSS</li>
+            <li class="item-list">JavaScript</li>
+            <li class="item-list">TypeScript</li>
+            <li class="item-list">Angular</li>
+          </ul>
         </section>
-        <section class="content">
-          <section id="aboutme">
-            <h4 class="text-uppercase">O mnie</h4>
-            <p>
-              Cześć. Jestem entuzjastycznym absolwentem
-              <b>Uniwersytetu Adama Mickiewicza</b>, gdzie zdobyłem gruntowne
-              wykształcenie w dziedzinie japonistyki oraz komunikacji i
-              zarządzania zasobami informacji. W międzyczasie, moje pasje i
-              zainteresowania przywiodły mnie na
-              <b>Wyższa Szkołę Nauk Humanistycznych i Dziennikarstwa</b>, gdzie
-              doskonaliłem swoje umiejętności w obszarze negocjacji i mediacji
-              oraz na <b>Uniwersytet Ekonomiczny</b>, gdzie zgłębiałem tajniki
-              audytu wewnętrznego w sektorach finansów publicznych.
-            </p>
-            <p>
-              Nieustanne dążenie do rozwoju skłoniło mnie również ku
-              fascynującemu światu programowania. Aktualnie moje palce tańczą po
-              klawiaturze, tworząc w języku Python, a także zgłębiam tajniki C#
-              oraz .Net. Fascynują mnie możliwości, jakie daje mi technologia
-              Angular, co pozwala mi tworzyć interaktywne i nowoczesne
-              aplikacje. Ostatnio do mojego zestawu zainteresowań dołączyła
-              także elektronika, zwłaszcza eksperymenty z Raspberry Pi. Wciąż
-              stawiam sobie nowe cele i wyzwania, co popycha mnie do ciągłego
-              rozwoju i poszukiwania nieszablonowych rozwiązań.
-            </p>
-            <p>
-              W pracy angażuję się z pasją, zawsze gotów do kreatywnego
-              podejścia i zdobywania nowych umiejętności. Wspieram się zasadą
-              KAIZEN, ciągłego doskonalenia, które sprawia, że każdy dzień jest
-              dla mnie okazją do nauki i wzrostu. Jestem otwarty na nowe
-              znajomości, inspirujące projekty oraz ciekawe dyskusje. Jeśli
-              chcesz podzielić się swoimi doświadczeniami lub zainspirować mnie
-              swoją wizją, zapraszam do kontaktu. Razem możemy stworzyć coś
-              wyjątkowego!
-            </p>
-          </section>
+        <section>
+          <h4 class="text-grey">Junior Backend Developer</h4>
+          <ul>
+            <li class="item-list">C#</li>
+            <li class="item-list">.Net / Winforms</li>
+            <li class="item-list">Python</li>
+            <li class="item-list">Django / Flask</li>
+          </ul>
         </section>
-      </main>
-      <footer></footer>
-    </main>
-  </body>
+        <section>
+          <h4 class="text-grey">Junior Manual tester</h4>
+          <ul>
+            <li class="item-list">Selenium IDE</li>
+            <li class="item-list"></li>
+            <li class="item-list"></li>
+
+          </ul>
+        </section>
+      </section>
+    </aside>
+    <section class="main-content">
+      <section id="aboutme">
+        <!-- <h4 class="text-uppercase">O mnie</h4>
+        <p>
+          Cześć. Jestem entuzjastycznym absolwentem
+          <b>Uniwersytetu Adama Mickiewicza</b>, gdzie zdobyłem gruntowne
+          wykształcenie w dziedzinie japonistyki oraz komunikacji i
+          zarządzania zasobami informacji. W międzyczasie, moje pasje i
+          zainteresowania przywiodły mnie na
+          <b>Wyższa Szkołę Nauk Humanistycznych i Dziennikarstwa</b>, gdzie
+          doskonaliłem swoje umiejętności w obszarze negocjacji i mediacji
+          oraz na <b>Uniwersytet Ekonomiczny</b>, gdzie zgłębiałem tajniki
+          audytu wewnętrznego w sektorach finansów publicznych.
+        </p>
+        <p>
+          Nieustanne dążenie do rozwoju skłoniło mnie również ku
+          fascynującemu światu programowania. Aktualnie moje palce tańczą po
+          klawiaturze, tworząc w języku Python, a także zgłębiam tajniki C#
+          oraz .Net. Fascynują mnie możliwości, jakie daje mi technologia
+          Angular, co pozwala mi tworzyć interaktywne i nowoczesne
+          aplikacje. Ostatnio do mojego zestawu zainteresowań dołączyła
+          także elektronika, zwłaszcza eksperymenty z Raspberry Pi. Wciąż
+          stawiam sobie nowe cele i wyzwania, co popycha mnie do ciągłego
+          rozwoju i poszukiwania nieszablonowych rozwiązań.
+        </p>
+        <p>
+          W pracy angażuję się z pasją, zawsze gotów do kreatywnego
+          podejścia i zdobywania nowych umiejętności. Wspieram się zasadą
+          KAIZEN, ciągłego doskonalenia, które sprawia, że każdy dzień jest
+          dla mnie okazją do nauki i wzrostu. Jestem otwarty na nowe
+          znajomości, inspirujące projekty oraz ciekawe dyskusje. Jeśli
+          chcesz podzielić się swoimi doświadczeniami lub zainspirować mnie
+          swoją wizją, zapraszam do kontaktu. Razem możemy stworzyć coś
+          wyjątkowego!
+        </p> -->
+      </section>
+    </section>
+  </main>
+  <footer></footer>
+  </main>
+</body>
+
 </html>

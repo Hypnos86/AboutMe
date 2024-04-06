@@ -2,7 +2,7 @@ html {
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
-  font-size: 65.5%;
+  font-size: 75.5%;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -10,7 +10,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: whitesmoke;
+  background-color: rgba(245, 245, 245, 0.788);
   height: 100vh;
 }
 
@@ -19,9 +19,10 @@ a {
 }
 
 .text-grey {
-  color: lightgrey;
   margin-top: 30px;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
+  font-weight: 600;
+  color: rgba(222, 224, 51, 0.836);
 }
 
 .info {
@@ -39,12 +40,13 @@ a {
 .container {
   width: 90%;
   margin: 0 auto;
+  display: flex;
 }
-
+/* 
 main {
   display: flex;
   align-content: stretch;
-}
+} */
 
 nav {
   display: flex;
@@ -61,14 +63,14 @@ nav div ul li {
   text-transform: uppercase;
 }
 
-.author {
+.aside-section {
   width: 20%;
   /* height: 100%; */
   background-color: rgb(20, 37, 54);
   color: aliceblue;
   padding: 50px 0;
-  border-radius: 15px;
-  border-right: 5px solid white;
+  border-radius: 10px 0px 0px 10px;
+  border-right: 1px solid white;
 }
 
 .image {
@@ -126,14 +128,16 @@ section ul {
   padding: 3px 0;
 }
 
-.content {
-  border-radius: 15px;
+.main-content {
+  border-radius: 0px 10px 10px 0px ;
   color: whitesmoke;
   width: 100%;
   background-image: linear-gradient(
     160deg,
     rgb(73, 95, 117),
-    rgb(162, 174, 186)
+    rgb(162, 174, 186),
+    rgba(115, 133, 172, 0.507)
+    
   );
 }
 
